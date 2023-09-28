@@ -60,6 +60,9 @@ dir = "Crystal"
 [item.CSharp]
 cmd = ["mono-sgen", "--desktop", "SwapView.exe"]
 
+[item.CSharp_parallel]
+cmd = ["./SwapView"]
+
 [item.ChezScheme]
 cmd = ["scheme", "--program", "swapview.so"]
 
